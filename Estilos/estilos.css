@@ -117,7 +117,7 @@ body{
    
 }
 
-.about h1{
+.about h2{
     display: flex;
     color: #3975DE;
     margin: 20px;
@@ -196,7 +196,7 @@ body{
         
 }
 
-.skills h1{
+.skills h2{
     justify-content: center;
     display: flex;
     color: #3975DE;
@@ -240,7 +240,7 @@ body{
     margin-bottom: 150px;
 }
 
-.coming_soon h1{
+.coming_soon h2{
     justify-content: center;
     display: flex;
     color: #3975DE;
@@ -282,7 +282,7 @@ body{
     margin-bottom: 350px;
 }
 
-.contact_me h1{
+.contact_me h2{
     justify-content: center;
     display: flex;
     color: #3975DE;
@@ -438,7 +438,7 @@ body{
     /* END MEDIA STYLE HERO */
 
     /* MEDIA STYLE ABOUT */
-    .about h1{
+    .about h2{
         display: flex;
         color: #3975DE;
         margin: 20px;
@@ -473,7 +473,7 @@ body{
     /* END MEDIA STYLE ABOUT */
     
     /* MEDIA STYLE SKILLS */
-    .skills h1{
+    .skills h2{
         display: flex;
         color: #3975DE;
         font-size: 25px;
@@ -491,7 +491,7 @@ body{
     /* END MEDIA STYLE SKILLS */
 
     /* MEDIA STYLE SKILLS COMING SOON */
-    .coming_soon h1{
+    .coming_soon h2{
         display: flex;
         color: #3975DE;
         font-size: 25px;
@@ -504,7 +504,7 @@ body{
     /* END MEDIA STYLE SKILLS COMING SOON */
 
     /* MEDIA STYLE CONTACT ME */
-    .contact_me h1{
+    .contact_me h2{
         display: flex;
         color: #3975DE;
         font-size: 25px;

@@ -39,6 +39,7 @@ body{
     display: flex;
     flex-direction: row;
     margin: 40px;
+    padding: 0;
 }
 
 .nav_bar li{
@@ -57,6 +58,7 @@ body{
     display: none;
     justify-content: center;
     align-items: center;
+    
 }
 
 .header.abajo{
@@ -165,8 +167,18 @@ body{
     justify-content: center;
     margin-top: 10px;
     background-color: #e9e9e9;
-    transition: .3s;
+    transition: .4s;
     border: none;
+}
+
+.about_card_content a{
+    text-decoration: none;
+    color:#252422;
+    transition: 0.4s;
+}
+
+.about_card_content a:hover{
+    color: #FFFFFF;
 }
 
 .about_card_content button:hover{
@@ -389,6 +401,8 @@ body{
         display: block;
         display: flex;
         flex-direction: column;
+        align-items: center;
+        
     }
 
     .links-icon a{
@@ -438,6 +452,11 @@ body{
         height: 350px;
         background-color: #fafafa;
         border-radius: 5px;
+    }
+
+    .about_card_content a{
+        text-decoration: none;
+        color:#252422;
     }
 
     .about_card_content button{

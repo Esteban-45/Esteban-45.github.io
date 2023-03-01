@@ -524,11 +524,13 @@ body{
     .redes .ri-linkedin-line{
         color: #fff;
         background-color: #0e76a8 ;
+        box-shadow: 0 0 5px #252422;
     }
     
     .redes .ri-github-line{
         color: #FFFFFF;
         background-color: #171515;
+        box-shadow: 0 0 5px #2b2a29;
     }
     
     .redes .ri-instagram-line{
@@ -542,7 +544,8 @@ body{
     
     .redes .ri-whatsapp-line{
         color: #fff;
-        background-color:#25D366
+        background-color:#25D366;
+        box-shadow: 0 0 5px #252422;
     }
     
     /* END MEDIA STYLE CONTACT ME */

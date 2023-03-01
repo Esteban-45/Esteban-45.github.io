@@ -159,7 +159,7 @@ body{
     
 }
 
-.about_card_content button{
+.about_card_content a{
     width: 100px;
     padding: 5px;
     display: flex;
@@ -181,7 +181,7 @@ body{
     color: #FFFFFF;
 }
 
-.about_card_content button:hover{
+.about_card_content a:hover{
     background-color: #3975DE;
     border-radius: 5px;
     color: #FFFFFF;
@@ -455,11 +455,17 @@ body{
     }
 
     .about_card_content a{
-        text-decoration: none;
-        color:#252422;
+    text-decoration: none;
+    color:#252422;
+    transition: 0.4s;
     }
 
-    .about_card_content button{
+    .about_card_content a:hover{
+    color: #FFFFFF;
+
+    }
+
+    .about_card_content a{
         background-color: #3975DE;
         border-radius: 5px;
         color: #FFFFFF;
